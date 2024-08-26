@@ -1,0 +1,45 @@
+\begin{table}
+\caption{Mixed Linear Model Regression Results: Subset Target $\neq$ Gender}
+\label{}
+\begin{center}
+\begin{tabular}{llll}
+\hline
+Model:            & MixedLM & Dependent Variable: & offensiveness\_merge  \\
+No. Observations: & 111884  & Method:             & REML                  \\
+No. Groups:       & 40621   & Scale:              & 0.0725                \\
+Min. group size:  & 1       & Log-Likelihood:     & -49010.4350           \\
+Max. group size:  & 10      & Converged:          & Yes                   \\
+Mean group size:  & 2.8     &                     &                       \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{lrrrrrr}
+\hline
+                                  &  Coef. & Std.Err. &      z & P$> |$z$|$ & [0.025 & 0.975]  \\
+\hline
+Intercept                         &  0.120 &    0.011 & 10.637 &       0.000 &  0.098 &  0.142  \\
+gender[T.Non-binary]              & -0.069 &    0.016 & -4.342 &       0.000 & -0.101 & -0.038  \\
+gender[T.Woman]                   & -0.012 &    0.002 & -5.921 &       0.000 & -0.016 & -0.008  \\
+race[T.Black or African American] &  0.086 &    0.006 & 13.991 &       0.000 &  0.074 &  0.098  \\
+race[T.Hispanic or Latino]        &  0.092 &    0.006 & 16.279 &       0.000 &  0.081 &  0.103  \\
+race[T.Native American]           & -0.001 &    0.012 & -0.101 &       0.920 & -0.026 &  0.023  \\
+race[T.Other]                     &  0.080 &    0.008 & 10.306 &       0.000 &  0.065 &  0.096  \\
+race[T.White]                     &  0.055 &    0.004 & 12.646 &       0.000 &  0.047 &  0.064  \\
+age[T.25-29]                      &  0.035 &    0.004 &  9.314 &       0.000 &  0.028 &  0.042  \\
+age[T.30-34]                      & -0.012 &    0.004 & -3.103 &       0.002 & -0.019 & -0.004  \\
+age[T.35-39]                      & -0.009 &    0.004 & -2.445 &       0.014 & -0.016 & -0.002  \\
+age[T.40-44]                      &  0.065 &    0.005 & 12.979 &       0.000 &  0.055 &  0.074  \\
+age[T.45-49]                      & -0.044 &    0.005 & -9.352 &       0.000 & -0.054 & -0.035  \\
+age[T.50-54]                      &  0.017 &    0.007 &  2.302 &       0.021 &  0.003 &  0.032  \\
+age[T.54-59]                      &  0.020 &    0.006 &  3.198 &       0.001 &  0.008 &  0.032  \\
+age[T.60-64]                      &  0.131 &    0.012 & 11.307 &       0.000 &  0.108 &  0.154  \\
+age[T.$>$65]                      &  0.067 &    0.009 &  7.758 &       0.000 &  0.050 &  0.083  \\
+Dataset[T.SBIC]                   &  0.294 &    0.011 & 27.011 &       0.000 &  0.273 &  0.315  \\
+Group Var                         &  0.148 &    0.006 &        &             &        &         \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\bigskip

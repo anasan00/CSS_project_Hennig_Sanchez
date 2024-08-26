@@ -1,0 +1,11 @@
+datasets @ file:///C:/b/abs_a3jy4vrfuo/croot/datasets_1684484478038/work
+=24.3.25
+matplotlib @ file:///C:/b/abs_49b2acwxd4/croot/matplotlib-suite_1679593486357/work
+nltk @ file:///C:/b/abs_a638z6l1z0/croot/nltk_1688114186909/work
+numpy @ file:///C:/Users/dev-admin/mkl/numpy_and_numpy_base_1682982345978/work
+pandas @ file:///C:/ci_311_rebuilds/pandas_1679004481142/work
+Pattern==3.6
+scikit-learn @ file:///C:/b/abs_55olq_4gzc/croot/scikit-learn_1690978955123/work
+simpledorff==0.0.2
+spacy==3.7.5
+statsmodels @ file:///C:/b/abs_7bth810rna/croot/statsmodels_1689937298619/work

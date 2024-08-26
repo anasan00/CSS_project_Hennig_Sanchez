@@ -1,0 +1,57 @@
+\begin{table}[h!]
+\caption{Comparison Targeted (gender vs. not gender) content across Datasets}
+\label{}
+\begin{center}
+\begin{tabular}{lcccccc}
+\hline
+
+ & \multicolumn{2}{c}{Merged} & \multicolumn{2}{c}{SBIC} & \multicolumn{2}{c}{POPQUORN} \\
+Target & Gender & Not Gender & Gender & Not Gender & Gender & Not Gender \\
+\hline
+Intercept & 0.208\textsuperscript{***} & 0.120\textsuperscript{***} & 0.587\textsuperscript{***} & 0.404\textsuperscript{***} & 0.390\textsuperscript{***} & 0.204\textsuperscript{***} \\
+ & (0.034) & (0.011) & (0.012) & (0.005) & (0.062) & (0.014) \\
+Dataset[T.SBIC] & \cellcolor{green!25}0.386\textsuperscript{***} & \cellcolor{green!25}0.294\textsuperscript{***} & & & & \\
+ & (0.033) & (0.011) & & & & \\
+gender[T.Woman] & \cellcolor{red!25}-0.040\textsuperscript{***} & \cellcolor{red!25}-0.012\textsuperscript{***} & \cellcolor{red!25}-0.042\textsuperscript{***} & \cellcolor{red!25}-0.009\textsuperscript{***} & 0.018 & -0.008 \\
+ & (0.006) & (0.002) & (0.006) & (0.002) & (0.027) & (0.006) \\
+gender[T.Non-binary] & -0.097 & \cellcolor{red!25}-0.069\textsuperscript{***} & & 0.097 & -0.109 & \cellcolor{red!25}-0.069\textsuperscript{***} \\
+ & (0.070) & (0.016) & & (0.159) & (0.087) & (0.018) \\
+race[T.Black] & -0.007 & \cellcolor{green!25}0.086\textsuperscript{***} & -0.026 & \cellcolor{green!25}0.067\textsuperscript{***} & -0.033 & \cellcolor{green!25}0.065\textsuperscript{***} \\
+ & (0.019) & (0.006) & (0.020) & (0.007) & (0.060) & (0.013) \\
+race[T.Hispanic or Latino] & \cellcolor{green!25}0.088\textsuperscript{***} & \cellcolor{green!25}0.092\textsuperscript{***} & \cellcolor{green!25}0.092\textsuperscript{***} & \cellcolor{green!25}0.104\textsuperscript{***} & -0.064 & \cellcolor{red!25}-0.088\textsuperscript{***} \\
+ & (0.017) & (0.006) & (0.017) & (0.006) & (0.099) & (0.024) \\
+race[T.Native American] & \cellcolor{green!25}0.124\textsuperscript{***} & -0.001 & \cellcolor{green!25}0.213\textsuperscript{***} & \cellcolor{green!25}0.071\textsuperscript{***} & \cellcolor{red!25}-0.177\textsuperscript{*} & \cellcolor{red!25}-0.116\textsuperscript{***} \\
+ & (0.043) & (0.012) & (0.051) & (0.017) & (0.102) & (0.022) \\
+race[T.White] & \cellcolor{green!25}0.048\textsuperscript{***} & \cellcolor{green!25}0.055\textsuperscript{***} & \cellcolor{green!25}0.053\textsuperscript{***} & \cellcolor{green!25}0.068\textsuperscript{***} & \cellcolor{red!25}-0.089\textsuperscript{*} & \cellcolor{red!25}-0.026\textsuperscript{**} \\
+ & (0.013) & (0.004) & (0.013) & (0.005) & (0.051) & (0.011) \\
+race[T.Other] & \cellcolor{green!25}0.076\textsuperscript{***} & \cellcolor{green!25}0.080\textsuperscript{***} & \cellcolor{green!25}0.077\textsuperscript{***} & \cellcolor{green!25}0.089\textsuperscript{***} & & \\
+ & (0.022) & (0.008) & (0.022) & (0.008) & & \\
+age[T.25-29] & \cellcolor{green!25}0.092\textsuperscript{***} & \cellcolor{green!25}0.035\textsuperscript{***} & \cellcolor{green!25}0.099\textsuperscript{***} & \cellcolor{green!25}0.037\textsuperscript{***} & \cellcolor{red!25}-0.109\textsuperscript{**} & \cellcolor{red!25}-0.044\textsuperscript{***} \\
+ & (0.011) & (0.004) & (0.011) & (0.004) & (0.055) & (0.012) \\
+age[T.30-34] & \cellcolor{green!25}0.048\textsuperscript{***} & \cellcolor{red!25}-0.012\textsuperscript{***} & \cellcolor{green!25}0.055\textsuperscript{***} & \cellcolor{red!25}-0.009\textsuperscript{**} & -0.035 & \cellcolor{red!25}-0.033\textsuperscript{***} \\
+ & (0.011) & (0.004) & (0.012) & (0.004) & (0.054) & (0.012) \\
+age[T.35-39] & \cellcolor{green!25}0.067\textsuperscript{***} & \cellcolor{red!25}-0.009\textsuperscript{**} & \cellcolor{green!25}0.071\textsuperscript{***} & \cellcolor{red!25}-0.011\textsuperscript{***} & \cellcolor{red!25}-0.091\textsuperscript{*} & \cellcolor{red!25}-0.028\textsuperscript{**} \\
+ & (0.011) & (0.004) & (0.011) & (0.004) & (0.054) & (0.012) \\
+age[T.40-44] & \cellcolor{green!25}0.131\textsuperscript{***} & \cellcolor{green!25}0.065\textsuperscript{***} & \cellcolor{green!25}0.131\textsuperscript{***} & \cellcolor{green!25}0.071\textsuperscript{***} & 0.051 & 0.008 \\
+ & (0.015) & (0.005) & (0.015) & (0.005) & (0.060) & (0.013) \\
+age[T.45-49] & -0.021 & \cellcolor{red!25}-0.044\textsuperscript{***} & \cellcolor{red!25}-0.025\textsuperscript{*} & \cellcolor{red!25}-0.060\textsuperscript{***} & -0.031 & 0.001 \\
+ & (0.014) & (0.005) & (0.014) & (0.005) & (0.061) & (0.013) \\
+age[T.50-54] & \cellcolor{green!25}0.043\textsuperscript{*} & \cellcolor{green!25}0.017\textsuperscript{**} & \cellcolor{green!25}0.057\textsuperscript{**} & \cellcolor{green!25}0.024\textsuperscript{**} & -0.075 & -0.006 \\
+ & (0.025) & (0.007) & (0.028) & (0.010) & (0.063) & (0.013) \\
+age[T.54-59] & \cellcolor{green!25}0.092\textsuperscript{***} & \cellcolor{green!25}0.020\textsuperscript{***} & \cellcolor{green!25}0.090\textsuperscript{***} & \cellcolor{red!25}-0.018\textsuperscript{**} & 0.010 & \cellcolor{green!25}0.036\textsuperscript{***} \\
+ & (0.021) & (0.006) & (0.025) & (0.008) & (0.052) & (0.011) \\
+age[T.60-64] & \cellcolor{green!25}0.169\textsuperscript{***} & \cellcolor{green!25}0.131\textsuperscript{***} & & 0.051 & 0.085 & \cellcolor{green!25}0.112\textsuperscript{***} \\
+ & (0.047) & (0.012) & & (0.189) & (0.065) & (0.015) \\
+age[T.$>$65] & \cellcolor{green!25}0.158\textsuperscript{***} & \cellcolor{green!25}0.067\textsuperscript{***} & \cellcolor{green!25}0.239\textsuperscript{***} & \cellcolor{green!25}0.083\textsuperscript{***} & 0.045 & \cellcolor{green!25}0.057\textsuperscript{***} \\
+ & (0.032) & (0.009) & (0.081) & (0.032) & (0.053) & (0.012) \\
+Group Var & 0.978\textsuperscript{***} & 2.036\textsuperscript{***} & 1.048\textsuperscript{***} & 2.262\textsuperscript{***} & 0.191\textsuperscript{***} & 0.310\textsuperscript{***} \\
+ & (0.030) & (0.022) & (0.032) & (0.025) & (0.046) & (0.017) \\
+N & 17178 & 111884 & 16277 & 99694 & 901 & 12190 \\
+\hline
+Standard errors in parentheses.
+\end{tabular}
+\end{center}
+\end{table}
+\bigskip
+
+

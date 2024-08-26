@@ -1,0 +1,36 @@
+\begin{table}
+\caption{Mixed Linear Model Regression Results Social Bias Inference Corpus}
+\label{}
+\begin{center}
+\begin{tabular}{llll}
+\hline
+Model:            & MixedLM & Dependent Variable: & offensiveYN  \\
+No. Observations: & 113373  & Method:             & REML         \\
+No. Groups:       & 45151   & Scale:              & 0.0720       \\
+Min. group size:  & 1       & Log-Likelihood:     & -52500.1384  \\
+Max. group size:  & 5       & Converged:          & Yes          \\
+Mean group size:  & 2.5     &                     &              \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{lrrrrrr}
+\hline
+                             &  Coef. & Std.Err. &       z & P$> |$z$|$ & [0.025 & 0.975]  \\
+\hline
+Intercept                    &  0.464 &    0.005 &  89.748 &       0.000 &  0.454 &  0.474  \\
+annotatorGender[T.nonBinary] &  0.085 &    0.163 &   0.523 &       0.601 & -0.234 &  0.404  \\
+annotatorGender[T.woman]     & -0.021 &    0.002 & -10.385 &       0.000 & -0.025 & -0.017  \\
+annotatorRace[T.black]       &  0.064 &    0.006 &  10.071 &       0.000 &  0.051 &  0.076  \\
+annotatorRace[T.hisp]        &  0.128 &    0.005 &  23.576 &       0.000 &  0.117 &  0.138  \\
+annotatorRace[T.native]      &  0.045 &    0.016 &   2.851 &       0.004 &  0.014 &  0.075  \\
+annotatorRace[T.other]       &  0.103 &    0.007 &  14.137 &       0.000 &  0.088 &  0.117  \\
+annotatorRace[T.white]       &  0.082 &    0.004 &  19.282 &       0.000 &  0.073 &  0.090  \\
+annotatorAge                 & -0.001 &    0.000 &  -9.074 &       0.000 & -0.001 & -0.001  \\
+Group Var                    &  0.153 &    0.006 &         &             &        &         \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\bigskip
